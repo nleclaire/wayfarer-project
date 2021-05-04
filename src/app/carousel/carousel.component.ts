@@ -22,3 +22,6 @@ export class CarouselComponent implements OnInit {
   }
 
 }
+
+// The following link was helpful when establishing the carousel
+// https://stackblitz.com/edit/angular-wyfcfs?file=index.html
