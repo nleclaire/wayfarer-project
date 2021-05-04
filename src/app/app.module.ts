@@ -6,12 +6,14 @@ import { AppComponent } from './app.component';
 import { HomeComponent } from './home/home.component';
 import { CitiesComponent } from './cities/cities.component';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
+import { CarouselComponent } from './carousel/carousel.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HomeComponent,
-    CitiesComponent
+    CitiesComponent,
+    CarouselComponent
   ],
   imports: [
     BrowserModule,
