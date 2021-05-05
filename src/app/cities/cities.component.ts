@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { CITIES } from './cities';
 
 @Component({
   selector: 'app-cities',
@@ -7,28 +8,7 @@ import { Component, OnInit } from '@angular/core';
 })
 export class CitiesComponent implements OnInit {
 
-  cities = [
-    {
-      name : 'San Francisco',
-      image_url : ''
-    },
-    {
-      name : 'London',
-      image_url : ''
-    },
-    {
-      name : 'Gibraltar',
-      image_url : ''
-    },
-    {
-      name : 'Sydney',
-      image_url : ''
-    },
-    {
-      name : 'New York',
-      image_url : ''
-    }
-  ];
+  cities = CITIES;
 
   constructor() { }
 

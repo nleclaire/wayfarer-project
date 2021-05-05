@@ -1,15 +1,17 @@
-<p>cities works!</p>
+<div class="city-container">
+  <h1>Cities:</h1>
+  <div *ngFor="let city of cities">
+    <!-- Render card component for each city in list -->
 
-<div *ngFor="let city of cities">
+    <!-- img of city -->
+    <!-- city name prolly h1 -->
+    <div class="card">
 
-  <!-- Render card component for each city in list -->
+      <img class="card-img" [src]="city.image_url" style="max-height: 100px; max-width: 100px">
 
-  <!-- img of city -->
+      <h5>{{city.name}}</h5>
+    </div>
 
-  <!-- city name prolly h1 -->
-
-  <div>
-    {{city.name}}
   </div>
-
 </div>
+
