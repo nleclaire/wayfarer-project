@@ -3,7 +3,18 @@ export const CITIES = [
     id: 0,
     name : 'San Francisco',
     image_url : 'https://www.trammellcrow.com/-/media/tcc_hsr/countrytcc/images/bu-icons/tcc_buicon_sf.jpg',
-    posts: []
+    posts: [
+      {
+        id: 0,
+        title: 'title',
+        textContent: 'Text Conent'
+      },
+      {
+        id: 1,
+        title: 'I love San Fran!',
+        textContent: 'I just love SF so much!!!'
+      }
+    ]
   },
   {
     id: 1,

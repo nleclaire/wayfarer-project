@@ -9,6 +9,7 @@ import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { CarouselComponent } from './carousel/carousel.component';
 import { NavbarComponent } from './navbar/navbar.component';
 import { CityListComponent } from './city-list/city-list.component';
+import { CityPostsComponent } from './city-posts/city-posts.component';
 
 @NgModule({
   declarations: [
@@ -17,7 +18,8 @@ import { CityListComponent } from './city-list/city-list.component';
     CitiesComponent,
     CarouselComponent,
     NavbarComponent,
-    CityListComponent
+    CityListComponent,
+    CityPostsComponent
   ],
   imports: [
     BrowserModule,

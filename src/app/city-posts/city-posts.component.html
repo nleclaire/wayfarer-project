@@ -1,0 +1,7 @@
+<p>city-posts works!</p>
+<h1>{{city.name}}</h1>
+<img src="{{city.image_url}}">
+<div *ngFor="let post of city.posts">
+  {{post.title}}:
+  {{post.textContent}}
+</div>
