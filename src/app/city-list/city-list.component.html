@@ -1,0 +1,12 @@
+<div class="city-container">
+  <h1>Cities:</h1>
+  <div *ngFor="let city of cities">
+    <div class="card">
+
+      <img class="card-img" [src]="city.image_url" style="max-height: 100px; max-width: 100px">
+
+      <h5 style="margin: 10px">{{city.name}}</h5>
+    </div>
+
+  </div>
+</div>
