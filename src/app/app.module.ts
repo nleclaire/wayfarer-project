@@ -12,6 +12,7 @@ import { CityListComponent } from './city-list/city-list.component';
 import { CityPostsComponent } from './city-posts/city-posts.component';
 import { PostListComponent } from './post-list/post-list.component';
 import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
+import { PostComponent } from './post/post.component';
 
 @NgModule({
   declarations: [
@@ -23,7 +24,8 @@ import { PageNotFoundComponent } from './page-not-found/page-not-found.component
     CityListComponent,
     CityPostsComponent,
     PostListComponent,
-    PageNotFoundComponent
+    PageNotFoundComponent,
+    PostComponent
   ],
   imports: [
     BrowserModule,
