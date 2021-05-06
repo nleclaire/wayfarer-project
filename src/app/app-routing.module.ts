@@ -14,9 +14,17 @@ const routes: Routes = [
     path: 'cities',
     component: CitiesComponent,
     children: [
+      // {
+      //   path: '',
+      //   component: CityPostsComponent
+      // },
       {
         path: ':id',
         component: CityPostsComponent
+      },
+      {
+        path: '**',
+        component: PageNotFoundComponent
       }
     ]
   },
