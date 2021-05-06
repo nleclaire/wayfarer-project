@@ -1,21 +1,3 @@
 <div *ngFor="let post of city.posts" class="card">
-
-  <div *ngIf="post.image_url">
-    <img [src]="post.image_url" style="max-height: 150px; max-width: 150px; margin: 15px 0 0 15px">
-  </div>
-
-  <div class="card-body">
-    <h2>{{post.title}}</h2>
-
-    <div *ngIf="!toggleMore">
-      {{post.textContent | slice:0:100 }}...
-    </div>
-
-    <div *ngIf="toggleMore">
-      {{ post.textContent }}
-    </div>
-
-    <button (click)="toggleMore = !toggleMore">Toggle me!</button>
-
-  </div>
+  <app-post [post]="post"></app-post>
 </div>
