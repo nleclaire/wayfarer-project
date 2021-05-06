@@ -4,7 +4,7 @@
     <a routerLink="/cities/{{city.id}}">
       <div class="card card-item">
 
-        <img class="card-img" [src]="city.image_url" style="max-height: 100px; max-width: 100px">
+        <img class="card-img" [src]="city.image_url" style="max-height: 100px; max-width: 100px" [alt]="city.name">
 
         <h5 style="margin: 10px">{{city.name}}</h5>
       </div>

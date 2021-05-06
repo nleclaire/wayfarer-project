@@ -1,6 +1,5 @@
 .card {
   flex-direction: row;
-  /*align-items: stretch;*/
   max-width: 600px;
   margin: 64px 10px 0px 20px;
 }

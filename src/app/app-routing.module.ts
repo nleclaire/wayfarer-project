@@ -6,7 +6,7 @@ import {CityPostsComponent} from './city-posts/city-posts.component';
 
 const routes: Routes = [
   {
-    path: 'home',
+    path: '',
     component: HomeComponent
   },
   {
