@@ -12,6 +12,8 @@ export class CityPostsComponent implements OnInit {
 
   city: any;
 
+  toggleMore = false;
+
   constructor(private route: ActivatedRoute) { }
 
   ngOnInit(): void {

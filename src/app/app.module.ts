@@ -10,6 +10,7 @@ import { CarouselComponent } from './carousel/carousel.component';
 import { NavbarComponent } from './navbar/navbar.component';
 import { CityListComponent } from './city-list/city-list.component';
 import { CityPostsComponent } from './city-posts/city-posts.component';
+import { PostListComponent } from './post-list/post-list.component';
 
 @NgModule({
   declarations: [
@@ -19,7 +20,8 @@ import { CityPostsComponent } from './city-posts/city-posts.component';
     CarouselComponent,
     NavbarComponent,
     CityListComponent,
-    CityPostsComponent
+    CityPostsComponent,
+    PostListComponent
   ],
   imports: [
     BrowserModule,
