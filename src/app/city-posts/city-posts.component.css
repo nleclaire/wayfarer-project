@@ -1,5 +1,22 @@
 .card {
   flex-direction: row;
-  max-width: 500px;
+  /*align-items: stretch;*/
+  max-width: 600px;
   margin: 64px 10px 0px 20px;
 }
+
+.city-header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.city-posts-card {
+  display: grid;
+  /*grid-template-columns: 1fr 1fr;*/
+  /*grid-template-rows: 1fr 1fr;*/
+}
+
+/*card:nth-child(1n) {*/
+/*  max-height: 200px;*/
+/*}*/
