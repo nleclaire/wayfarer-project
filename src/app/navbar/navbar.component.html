@@ -1,10 +1,13 @@
 <nav class="navbar navbar-expand-md navbar-dark bg-primary fixed-top">
 
-  <a class="navbar-brand" routerLink="home">Wayfarer</a>
+  <a class="navbar-brand" routerLink="home">
+    <img src="../../assets/images/sailboat-icon.png" style="max-width: 30px; max-height: 30px; margin-top: -5px">
+    Wayfarer
+  </a>
 
-  <button class="navbar-toggler" type="button"  data-target="#navbarsDefault" aria-controls="navbarsDefault" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon" (click)="isNavbarCollapsed = !isNavbarCollapsed"></span>
-  </button>
+<!--  <button class="navbar-toggler" type="button" (click)="isNavbarCollapsed = !isNavbarCollapsed" data-target="#navbarsDefault" aria-controls="navbarsDefault" aria-expanded="false" aria-label="Toggle navigation">-->
+<!--    <span class="navbar-toggler-icon" ></span>-->
+<!--  </button>-->
 
   <div [ngbCollapse]="isNavbarCollapsed" class="collapse navbar-collapse" id="navbarsDefault">
 

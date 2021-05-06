@@ -12,13 +12,12 @@ export class CityPostsComponent implements OnInit {
 
   city: any;
 
-  toggleMore = false;
-
   constructor(private route: ActivatedRoute) { }
 
   ngOnInit(): void {
     this.route.paramMap
       .subscribe( params => {
+        console.log(params);
         this.city = CITIES.find( city => {
           return city.id === parseInt(params.get('id'), 10);
         });

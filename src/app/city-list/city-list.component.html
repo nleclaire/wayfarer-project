@@ -1,8 +1,8 @@
-<div class="city-container">
+<div class="card city-container">
   <h1>Cities:</h1>
   <div *ngFor="let city of cities">
     <a routerLink="/cities/{{city.id}}">
-      <div class="card">
+      <div class="card card-item">
 
         <img class="card-img" [src]="city.image_url" style="max-height: 100px; max-width: 100px">
 

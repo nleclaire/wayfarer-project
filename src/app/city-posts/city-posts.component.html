@@ -1,13 +1,16 @@
 <div class="card city-posts-card" style="position: absolute; justify-self: end">
   <div class="city-header">
-    <h1 style="max-width: 300px">{{city.name}}</h1>
+    <div style="flex-direction: column">
+      <h1 style="max-width: 300px">{{city.name}}</h1>
+      <h4>{{city.country}}</h4>
+    </div>
 
     <img src="{{city.image_url}}" style="max-height: 300px; max-width: 300px; margin-top: 15px">
 
   </div>
 
+  <!-- pass city from City-Posts to Post-List by using property binding -->
   <app-post-list [city]="city"></app-post-list>
+  <!-- https://angular.io/guide/property-binding -->
 
 </div>
-
-

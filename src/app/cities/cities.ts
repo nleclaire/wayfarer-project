@@ -2,6 +2,7 @@ export const CITIES = [
   {
     id: 0,
     name : 'San Francisco',
+    country: 'United States',
     image_url : 'https://www.trammellcrow.com/-/media/tcc_hsr/countrytcc/images/bu-icons/tcc_buicon_sf.jpg',
     posts: [
       {
@@ -24,6 +25,7 @@ export const CITIES = [
   {
     id: 1,
     name : 'London',
+    country: 'Britain',
     image_url : 'https://lp-cms-production.imgix.net/image_browser/london-big-ben.jpg',
     posts: [
       {
@@ -41,6 +43,7 @@ export const CITIES = [
   {
     id: 2,
     name : 'Gibraltar',
+    country: 'Britain',
     image_url : 'https://cdn.britannica.com/60/191560-050-87775E60/rock-of-Gibraltar.jpg',
     posts: [
       {
@@ -52,12 +55,18 @@ export const CITIES = [
         id: 6,
         title: 'Even though it\'s just a rock...',
         textContent: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum'
+      },
+      {
+        id: 11,
+        title: 'Gibraltar rocks!',
+        textContent: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum'
       }
     ]
   },
   {
     id: 3,
     name : 'Sydney',
+    country: 'Australia',
     image_url : 'https://lp-cms-production.imgix.net/2019-06/65830387.jpg',
     posts: [
       {
@@ -75,6 +84,7 @@ export const CITIES = [
   {
     id: 4,
     name : 'New York',
+    country: 'United States',
     image_url : 'https://static.toiimg.com/photo/77757963.cms',
     posts: [
       {
@@ -85,7 +95,7 @@ export const CITIES = [
       },
       {
         id: 10,
-        title: 'Pizza rat is my favorite',
+        title: 'Pizza rat is an icon',
         textContent: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum',
         image_url: 'https://cdn.vox-cdn.com/thumbor/z6-K9_Fl1F9boqD7MNYYuCyQHmE=/0x55:472x409/1400x1400/filters:focal(0x55:472x409):format(png)/cdn.vox-cdn.com/uploads/chorus_image/image/47234344/Screen_Shot_2015-09-21_at_4.54.12_PM.0.0.png'
       }

@@ -1,11 +1,11 @@
 .city-container {
   margin: 64px 0px 0px 5px;
-  background-color: #302e2f;
+  background-color: #027cd0;
   max-width: 17rem;
   padding: 5px;
 }
 
-.card {
+.card-item {
   flex-direction: row;
   align-items: center;
   margin: 10px;
