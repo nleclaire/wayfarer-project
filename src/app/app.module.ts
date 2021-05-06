@@ -11,6 +11,7 @@ import { NavbarComponent } from './navbar/navbar.component';
 import { CityListComponent } from './city-list/city-list.component';
 import { CityPostsComponent } from './city-posts/city-posts.component';
 import { PostListComponent } from './post-list/post-list.component';
+import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
 
 @NgModule({
   declarations: [
@@ -21,7 +22,8 @@ import { PostListComponent } from './post-list/post-list.component';
     NavbarComponent,
     CityListComponent,
     CityPostsComponent,
-    PostListComponent
+    PostListComponent,
+    PageNotFoundComponent
   ],
   imports: [
     BrowserModule,
