@@ -1,7 +1,8 @@
-<p>city-posts works!</p>
-<h1>{{city.name}}</h1>
-<img src="{{city.image_url}}">
-<div *ngFor="let post of city.posts">
-  {{post.title}}:
-  {{post.textContent}}
+<div class="card">
+  <h1 style="max-width: 300px">{{city.name}}</h1>
+  <img src="{{city.image_url}}" style="max-height: 300px; max-width: 300px;">
+  <div *ngFor="let post of city.posts">
+    {{post.title}}:
+    {{post.textContent}}
+  </div>
 </div>
