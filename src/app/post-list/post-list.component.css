@@ -1,0 +1,5 @@
+.card {
+  max-height: 300px;
+  margin: 20px;
+  flex-direction: row;
+}
