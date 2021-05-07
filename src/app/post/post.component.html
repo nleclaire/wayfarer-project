@@ -1,18 +1,21 @@
-<div *ngIf="post.image_url">
-  <img [src]="post.image_url" style="max-height: 150px; max-width: 150px; margin: 15px 0 0 15px">
-</div>
-
-<div class="card-body">
-  <h2>{{post.title}}</h2>
-
-  <div *ngIf="!toggle">
-    {{post.textContent | slice:0:100 }}...
+<div style="display: flex; flex-direction: row">
+  <div *ngIf="post.image_url">
+    <img [src]="post.image_url" style="max-height: 150px; max-width: 150px; margin: 15px 0 0 15px">
   </div>
 
-  <div *ngIf="toggle">
-    {{ post.textContent }}
+  <div class="card-body">
+    <h2>{{post.title}}</h2>
+
+    <div *ngIf="!toggle">
+      {{post.textContent | slice:0:100 }}...
+    </div>
+
+    <div *ngIf="toggle">
+      {{ post.textContent }}
+    </div>
+
+    <button (click)="toggle = !toggle">Toggle me!</button>
+
   </div>
-
-  <button (click)="toggle = !toggle">Toggle me!</button>
-
 </div>
+
