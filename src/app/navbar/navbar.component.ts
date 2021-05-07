@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import {CITIES} from '../cities/cities';
+import {filter} from 'rxjs/operators';
 
 @Component({
   selector: 'app-navbar',
@@ -8,6 +10,9 @@ import { Component, OnInit } from '@angular/core';
 export class NavbarComponent implements OnInit {
 
   isNavbarCollapsed = false;
+
+  cities = CITIES;
+  searchText: any;
 
   constructor() { }
 

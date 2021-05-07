@@ -13,6 +13,8 @@ import { CityPostsComponent } from './city-posts/city-posts.component';
 import { PostListComponent } from './post-list/post-list.component';
 import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
 import { PostComponent } from './post/post.component';
+import { FilterPipe } from './filter.pipe';
+import {FormsModule} from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -25,12 +27,14 @@ import { PostComponent } from './post/post.component';
     CityPostsComponent,
     PostListComponent,
     PageNotFoundComponent,
-    PostComponent
+    PostComponent,
+    FilterPipe
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    NgbModule
+    NgbModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
